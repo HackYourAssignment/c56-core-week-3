@@ -13,7 +13,7 @@ function isBookApplicable(searchString) {
   
     if (normalizedSearch === '') {
        return false;
-}
+   }
     
 return normalizedTitle.includes(normalizedSearch);
 } 
