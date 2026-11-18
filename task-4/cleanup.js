@@ -26,7 +26,11 @@ function WindChillCalculation(windSpeed, cityName, tempCelsius) {
 TemperatureConversion("Amsterdam", 22);
 TemperatureConversion("Berlin", 15);
 TemperatureConversion("Copenhagen", -5);
+TemperatureConversion("Sana'a", 20);
+TemperatureConversion("Riyad", 30);
 
 WindChillCalculation(15, "Amsterdam", 22);
 WindChillCalculation(20, "Berlin", 15);
 WindChillCalculation(25, "Copenhagen", -5);
+WindChillCalculation(22, "Sana'a", 20);
+WindChillCalculation(25, "Riyad", 30);
