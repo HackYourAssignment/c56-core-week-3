@@ -1,9 +1,9 @@
 // Do not modify this file
 import {
-  convertHoursToMinutes,
-  convertMinutesToHours,
   convertDaysToHours,
   convertHoursToDays,
+  convertHoursToMinutes,
+  convertMinutesToHours,
   convertMinutesToSeconds,
   convertSecondsToMinutes
 } from './date.js';
