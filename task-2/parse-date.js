@@ -11,12 +11,12 @@ function parseDateString(dateString) {
     const [monthValue, dayValue, yearValue] = dateString.slice(4).split("-");
 
     date = {
-      month: Number(monthValue),
       day: Number(dayValue),
+      month: Number(monthValue),
       year: Number(yearValue),
     };
   } else {
-    date = "Invalid date";
+    throw new Error("Invalid date format");
   }
   return date;
 }
